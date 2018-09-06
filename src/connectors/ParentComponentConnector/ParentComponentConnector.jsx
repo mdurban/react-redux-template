@@ -1,8 +1,8 @@
 import { connect } from 'react-redux'
-import HelloWorld from '../../presenters/HelloWorld'
+import ParentComponent from '../../presenters/ParentComponent'
 
 const mapDispatchToProps = dispatch => ({
   buttonAction: () => dispatch({ type: 'REDUCER', value: 'state changed from connector' })
 })
 
-export default connect(null, mapDispatchToProps)(HelloWorld)
+export default connect(null, mapDispatchToProps)(ParentComponent)

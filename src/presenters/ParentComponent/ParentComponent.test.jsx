@@ -1,11 +1,11 @@
 import React from 'react'
-import HelloWorld from './'
+import ParentComponent from './'
 import ChildComponentConnector from '../../connectors/ChildComponentConnector'
 
-describe('HelloWorld', () => {
+describe('ParentComponent', () => {
   test('clicking button calls callback prop', () => {
     const buttonActionMock = jest.fn()
-    const subject = shallow(<HelloWorld buttonAction={buttonActionMock} />)
+    const subject = shallow(<ParentComponent buttonAction={buttonActionMock} />)
 
     subject.find('button').simulate('click')
 
@@ -13,7 +13,7 @@ describe('HelloWorld', () => {
   })
 
   test('renders ChildComponentConnector', () => {
-    const subject = shallow(<HelloWorld />)
+    const subject = shallow(<ParentComponent />)
 
     expect(subject.find(ChildComponentConnector).length).toBe(1)
   })
