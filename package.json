@@ -9,7 +9,9 @@
     "test": "jest --no-cache"
   },
   "jest": {
-    "setupFiles": ["./test/jestsetup.js"]
+    "setupFiles": [
+      "./test/jestsetup.js"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -20,9 +22,9 @@
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "express": "^4.16.2",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "react-redux": "^5.0.6",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
     "redux": "^3.7.2",
     "request": "^2.88.0",
     "webpack": "^3.8.1",
