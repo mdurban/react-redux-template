@@ -1,9 +1,9 @@
 import React from 'react'
 import ChildComponentConnector from '../../connectors/ChildComponentConnector'
- 
+
 const ParentComponent = ({ buttonAction }) => (
   <div>
-    <button onClick={ buttonAction }>Action</button>
+    <button onClick={buttonAction}>Action</button>
     <ChildComponentConnector />
   </div>
 )
