@@ -1,5 +1,5 @@
 import React from 'react'
-import ChildComponent from './'
+import ChildComponent from './ChildComponent'
 
 describe('ChildComponentConnector', () => {
   test('displays value from prop', () => {

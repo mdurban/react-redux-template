@@ -1,5 +1,7 @@
 1.) Clone project.
 
-2.) Run `npm run build && npm run start` (look at package.json for these tasks).
+2.) `npm install` to install dependencies
 
-3.) View app at localhost:1234
+2.) `npm start` to run application
+
+3.) `npm test` to run tests
