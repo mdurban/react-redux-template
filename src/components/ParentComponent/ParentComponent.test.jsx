@@ -1,6 +1,6 @@
 import React from 'react'
 import ParentComponent from './'
-import ChildComponentConnector from '../../connectors/ChildComponentConnector'
+import ChildComponentConnector from '../ChildComponent'
 
 describe('ParentComponent', () => {
   test('clicking button calls callback prop', () => {

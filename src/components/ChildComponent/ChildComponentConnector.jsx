@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import ChildComponent from '../../presenters/ChildComponent'
+import ChildComponent from './ChildComponent'
 
 const mapStateToProps = state => ({
   valueFromState: state.helloWorld

@@ -1,0 +1,1 @@
+export const sampleAction = () => ({ type: 'REDUCER_ACTION', value: 'state changed from connector' })

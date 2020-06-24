@@ -4,8 +4,8 @@ export const DEFAULT_STATE = {
 
 export default (state = DEFAULT_STATE, action) => {
   switch (action.type) {
-    case 'REDUCER':
-      return Object.assign({}, state, { helloWorld: action.value }) 
+    case 'REDUCER_ACTION':
+      return { ...state, helloWorld: action.value }
   }
   return state
 }
